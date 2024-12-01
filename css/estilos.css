@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -10,13 +11,24 @@ body {
     background-image: url(../img/back.jpg);
 }
 
+=======
+>>>>>>> f958163602af035b8a20fe97731b5d6fc8acd9b7
 html {
     scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
 a {
     color: orange;
     text-shadow:1px 1px 10px orange;
+=======
+ul {
+    padding: 0;
+}
+
+a {
+    color: orange;
+>>>>>>> f958163602af035b8a20fe97731b5d6fc8acd9b7
     text-decoration: none;
     font-size: 20px;
 }
@@ -37,12 +49,19 @@ header {
     padding: 12px 2%;
     left: 0;
     top: 0;
+<<<<<<< HEAD
     border-bottom: 1px solid rgba(218, 73, 231, 0.699);
     background: #0a000000;
     box-sizing: border-box;
     box-shadow:1px 1px 10px #a51b82;
     text-align: left;
     
+=======
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: #0a0000a2;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 2px -2px #24262877
+>>>>>>> f958163602af035b8a20fe97731b5d6fc8acd9b7
 }
 
 header span {
@@ -65,6 +84,7 @@ header span a:hover {
 }
 
 .portada {
+<<<<<<< HEAD
     min-width: 100%;
 }
 
@@ -114,4 +134,32 @@ article h2 {
 
 .qs2 {
     float: left;
+=======
+    margin: 0px auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.portada img {
+    width: 30%;
+}
+
+.negro {
+    background-color: #5b3228;
+    color: wheat;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+>>>>>>> f958163602af035b8a20fe97731b5d6fc8acd9b7
 }
