@@ -77,13 +77,23 @@ header span a {
     text-shadow: 1px 1px 10px rgb(255, 255, 255);
 }
 
-footer a {
-    text-shadow: 1px 1px 10px rgb(255, 255, 255);
-    color: white;
-}
 
 header span a:hover {
     border-bottom: 2px solid;
+}
+
+header span a:visited {
+    color: rgb(160, 159, 159);
+    text-shadow: 1px 1px 10px rgb(160, 159, 159);
+}
+
+header span a:active {
+    text-shadow: none;
+}
+
+footer a {
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    color: white;
 }
 
 #portada {
@@ -123,7 +133,7 @@ header span a:hover {
     width: 800px;
     height: 800px;
     border: 7px #bd1593;
-    border-style:double;
+    border-style: double;
     box-shadow: 3px 3px 30px #cf1aa2;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;

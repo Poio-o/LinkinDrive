@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: PerfectZero;
+    src: url(fuentes/Perfect\ Dark\ Zero.ttf);
+}
+
+
+
+h1 {
+    font-family: PerfectZero;
+    font-size: 64px;
+    font-weight: normal;
+
+}
+
+body {
+    text-align: center;
+    color: white;
+    background-color: black;
+    text-shadow: 1px 1px 10px #ffffff;
+    background-image: url(../img/back.jpg);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: orange;
+    text-shadow: 1px 1px 10px orange;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav {
+    color: rgba(192, 192, 192, 0);
+    font-size: 20px;
+    cursor: default
+}
+
+
+header {
+    backdrop-filter: blur(5px);
+    position: sticky;
+    padding: 5px;
+    margin-top: -20px;
+    width: 100%;
+    padding: 12px 2%;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid rgba(218, 73, 231, 0.699);
+    background: #0a000000;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px #a51b82;
+    text-align: left;
+    z-index: 90;
+
+}
+
+header span {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    float: right;
+    padding: 5px;
+    line-height: 50%;
+}
+
+header span a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0 5px;
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+
+header span a:hover {
+    border-bottom: 2px solid;
+}
+
+header span a:visited {
+    color: rgb(160, 159, 159);
+    text-shadow: 1px 1px 10px rgb(160, 159, 159);
+}
+
+header span a:active {
+    text-shadow: none;
+}
+
+footer a {
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    color: white;
+}
+
+#portada {
+    min-width: 100%;
+    background-image: url(../img/Holo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portada img {
+    width: 50%;
+}
+
+.qs {
+    color: #38fbdb;
+    text-shadow: 1px 1px 10px #38c4fb;
+    text-align: center;
+}
+
+.nm {
+    color: #bd1593;
+    text-shadow: 1px 1px 10px #cf1aa2;
+    text-align: center;
+    background-image: url(../img/backpurple.jpg);
+}
+
+.nm article {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.nm article p {
+    padding: 20px;
+}
+
+.nm article img {
+    width: 800px;
+    height: 800px;
+    border: 7px #bd1593;
+    border-style: double;
+    box-shadow: 3px 3px 30px #cf1aa2;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+article {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20%;
+    font-size: 20px;
+}
+
+article img {
+    width: 200px;
+}
+
+section h1 {
+    padding-bottom: 50px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+#enri {
+    position: absolute;
+    left: 200px;
+    bottom: -415px;
+}
+
+#migue {
+    float: right;
+    padding-right: 10%;
+    position: absolute;
+    right: 50px;
+    bottom: -840px;
+}
+
+.qs1 {
+    float: right;
+}
+
+.qs2 {
+    float: left;
+}
+
+section>p {
+    position: relative;
+    bottom: 40px;
+}

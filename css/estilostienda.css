@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: PerfectZero;
+    src: url(fuentes/Perfect\ Dark\ Zero.ttf);
+}
+
+h1 {
+    font-family: PerfectZero;
+    font-size: 96px;
+    font-weight: normal;
+
+}
+
+body {
+    text-align: center;
+    color: white;
+    background-color: black;
+    text-shadow: 1px 1px 10px #ffffff;
+    background-image: url(../img/back.jpg);
+    color: #38fbdb;
+    text-shadow: 1px 1px 10px #38c4fb;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: orange;
+    text-shadow: 1px 1px 10px orange;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav {
+    color: rgba(192, 192, 192, 0);
+    font-size: 20px;
+    cursor: default
+}
+
+
+header {
+    backdrop-filter: blur(5px);
+    position: sticky;
+    padding: 5px;
+    margin-top: -20px;
+    width: 100%;
+    padding: 12px 2%;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid rgba(218, 73, 231, 0.699);
+    background: #0a000000;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px #a51b82;
+    text-align: left;
+    z-index: 90;
+
+}
+
+header span {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    float: right;
+    padding: 5px;
+    line-height: 50%;
+}
+
+header span a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0 5px;
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+
+header span a:hover {
+    border-bottom: 2px solid;
+}
+
+header span a:visited {
+    color: rgb(160, 159, 159);
+    text-shadow: 1px 1px 10px rgb(160, 159, 159);
+}
+
+header span a:active {
+    text-shadow: none;
+}
+
+footer a {
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    color: white;
+}
+
+article {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.productodiv {
+    display:flex;
+    align-items: center;
+    border: 1px solid #38fbdb;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 1px 1px 10px #38c4fb;
+    justify-content: space-around;
+}
+
+.producto {
+    width: 400px;
+    height: auto;
+}
+
+.productoexp {
+    max-width: 500px;
+}
+
+.productoexp h2 {
+    font-family: PerfectZero;
+    margin: 0 0 10px;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.productoexp p {
+    margin: 0 0 20px;
+}
+
+button {
+    padding: 10px 20px;
+    color: rgb(202, 29, 29);
+    text-shadow: 1px 1px 10px rgb(248, 20, 20);
+    border: solid;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px rgb(248, 20, 20);
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6d0f0f;
+}
