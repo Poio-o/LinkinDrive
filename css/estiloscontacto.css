@@ -8,11 +8,9 @@
     src: url(fuentes/Perfect\ Dark\ Zero.ttf);
 }
 
-
-h1 {
-    font-family: PerfectZero;
-    font-size: 96px;
-    font-weight: normal;
+html {
+    scroll-behavior: smooth;
+    height: 110%;
 }
 
 body {
@@ -25,18 +23,6 @@ body {
     background-image: url(../img/Holo.gif);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-html {
-    scroll-behavior: smooth;
-    height: 110%;
-}
-
-a {
-    color: orange;
-    text-shadow: 1px 1px 10px orange;
-    text-decoration: none;
-    font-size: 18px;
 }
 
 header {
@@ -87,15 +73,15 @@ header span a:active {
     text-shadow: none;
 }
 
-footer {
-position: absolute;
-bottom: -100px;
-left: 45%;
+h1 {
+    font-family: PerfectZero;
+    font-size: 96px;
+    font-weight: normal;
 }
 
-footer a {
-    text-shadow: 1px 1px 10px rgb(255, 255, 255);
-    color: white;
+a {
+    text-decoration: none;
+    font-size: 18px;
 }
 
 form {
@@ -105,21 +91,42 @@ form {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 label {
     display: block;
     margin: 10px 0 5px;
     font-weight: bold;
 }
-input, textarea, button {
+
+input,
+textarea,
+button {
     width: 100%;
     padding: 8px;
     margin-bottom: 20px;
     border: 1px solid #ffffff;
     border-radius: 8px;
 }
+
 textarea {
     resize: vertical;
 }
+
+.checkbox-group,
+.radio-group {
+    margin-bottom: 10px;
+}
+
+.checkbox-group label,
+.radio-group label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.required {
+    color: red;
+}
+
 button {
     background-color: rgba(0, 0, 0, 0.2);
     color: #218838;
@@ -131,18 +138,9 @@ button {
     z-index: 90;
     position: relative;
 }
+
 button:hover {
     background-color: #33d657;
-}
-.checkbox-group, .radio-group {
-    margin-bottom: 10px;
-}
-.checkbox-group label, .radio-group label {
-    display: inline-block;
-    margin-right: 10px;
-}
-.required {
-    color: red;
 }
 
 .mapa {
@@ -150,4 +148,15 @@ button:hover {
     position: fixed;
     right: 800px;
     bottom: 60px;
+}
+
+footer {
+    position: absolute;
+    bottom: -100px;
+    left: 45%;
+}
+
+footer a {
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    color: white;
 }

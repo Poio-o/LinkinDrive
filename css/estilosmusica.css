@@ -8,18 +8,9 @@
     src: url(fuentes/Perfect\ Dark\ Zero.ttf);
 }
 
-h1 {
-    font-family: PerfectZero;
-    font-size: 96px;
-    font-weight: normal;
+html {
+    scroll-behavior: smooth;
 }
-
-h2 {
-    font-family: PerfectZero;
-    font-size: 72px;
-    font-weight: normal;
-}
-
 
 body {
     background-color: rgb(14, 0, 0);
@@ -30,24 +21,6 @@ body {
     background-image: url(../img/backpurple.jpg);
     box-sizing: border-box
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
-a {
-    color: orange;
-    text-shadow: 1px 1px 10px orange;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav {
-    color: rgba(192, 192, 192, 0);
-    font-size: 20px;
-    cursor: default
-}
-
 
 header {
     backdrop-filter: blur(5px);
@@ -97,102 +70,40 @@ header span a:active {
     text-shadow: none;
 }
 
-footer a {
-    text-shadow: 1px 1px 10px rgb(255, 255, 255);
-    color: white;
+h1 {
+    font-family: PerfectZero;
+    font-size: 96px;
+    font-weight: normal;
 }
 
-#portada {
-    min-width: 100%;
-    background-image: url(../img/Holo.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+h2 {
+    font-family: PerfectZero;
+    font-size: 72px;
+    font-weight: normal;
 }
 
-#portada img {
-    width: 50%;
+a {
+    text-decoration: none;
+    font-size: 18px;
 }
 
-.qs {
-    color: #38fbdb;
-    text-shadow: 1px 1px 10px #38c4fb;
-    text-align: center;
-}
-
-.nm {
-    color: #bd1593;
-    text-shadow: 1px 1px 10px #cf1aa2;
-    text-align: center;
-    background-image: url(../img/backpurple.jpg);
-}
-
-.nm article {
-    text-align: center;
-    padding-bottom: 150px;
-}
-
-.nm article p {
-    padding: 20px;
-}
-
-.nm article img {
-    width: 800px;
-    height: 800px;
-    border: 7px #bd1593;
-    border-style: double;
-    box-shadow: 3px 3px 30px #cf1aa2;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-
-article {
-    text-align: justify;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 20%;
-    font-size: 20px;
-}
-
-article img {
-    width: 200px;
+section {
+    padding-top: 100px;
+    height: 500px;
 }
 
 section h1 {
     padding-bottom: 50px;
 }
 
-article h2 {
-    text-align: center;
+section h2 {
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
-#enri {
-    position: absolute;
-    left: 200px;
-    bottom: -415px;
+section li {
+    padding-top: 20px;
 }
-
-#migue {
-    float: right;
-    padding-right: 10%;
-    position: absolute;
-    right: 50px;
-    bottom: -840px;
-}
-
-.qs1 {
-    float: right;
-}
-
-.qs2 {
-    float: left;
-}
-
-section>p {
-    position: relative;
-    bottom: 40px;
-}
-
-
 
 .adg {
     display: flex;
@@ -201,28 +112,34 @@ section>p {
     margin: 20px 0;
     padding: 20px;
 }
+
 .imagen {
     flex: 1;
     text-align: center;
     padding: 10px;
 }
+
 .imagen img {
     max-width: 100%;
     height: auto;
 }
+
 .contenido {
     flex: 2;
     text-align: center;
     padding: 10px;
 }
+
 .contenido iframe {
     width: 100%;
     height: 500px;
     margin-bottom: 10px;
 }
+
 .contenido audio {
     width: 100%;
 }
+
 .lista {
     flex: 1;
     margin-top: 10%;
@@ -240,17 +157,7 @@ section>p {
     padding-top: 20px;
 }
 
-section {
-    padding-top: 100px;
-    height: 500px;
+footer a {
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    color: white;
 }
-
-section h2 {
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-
-section li {
-    padding-top: 20px;
-}
-

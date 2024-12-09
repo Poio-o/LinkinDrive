@@ -8,11 +8,9 @@
     src: url(fuentes/Perfect\ Dark\ Zero.ttf);
 }
 
-
-h1 {
-    font-family: PerfectZero;
-    font-size: 96px;
-    font-weight: normal;
+html {
+    scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
@@ -25,18 +23,6 @@ body {
     background-image: url(../img/Holo.gif);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-html {
-    scroll-behavior: smooth;
-    height: 100%;
-}
-
-a {
-    color: orange;
-    text-shadow: 1px 1px 10px orange;
-    text-decoration: none;
-    font-size: 18px;
 }
 
 header {
@@ -87,18 +73,16 @@ header span a:active {
     text-shadow: none;
 }
 
-footer {
-position: absolute;
-bottom: 0px;
-left: 45%;
+h1 {
+    font-family: PerfectZero;
+    font-size: 96px;
+    font-weight: normal;
 }
 
-footer a {
-    text-shadow: 1px 1px 10px rgb(255, 255, 255);
-    color: white;
+a {
+    text-decoration: none;
+    font-size: 18px;
 }
-
-
 
 .redes-tabla {
     width: 100%;
@@ -113,16 +97,14 @@ footer a {
 
 th {
     font-size: 24px;
-text-align: center;
+    text-align: center;
     color: white;
 }
 
-/* Contenido dentro de las celdas */
 td {
     padding: 5px;
 }
 
-/* Imágenes */
 .youtube {
     float: right;
     width: 100px;
@@ -165,4 +147,15 @@ td {
     border-radius: 72px;
     filter: invert(1);
     box-shadow: 3px 3px 30px rgb(221, 5, 174);
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+}
+
+footer a {
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    color: white;
 }
