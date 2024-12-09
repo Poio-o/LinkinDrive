@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Linkin Drive</title>
+    <link rel="stylesheet" href="css/estiloscontacto.css">
+    <link rel="icon" type="image/x-icon" href="img/LinkinDriveLogo.png">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/LinkinDriveLogoTextoW.png" align="center" width="160px"
+                draggable="false"></a>
+        <span>
+            <a href="tienda.html">Tienda</a>
+            <a href="musica.html">Música</a>
+            <a href="redes.html">Redes</a>
+        </span>
+    </header>
+
+    <h1>Contactanos</h1>
+
+    <form action="#" method="post">
+
+        <label for="nombre">Nombre<span class="required">*</span></label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+        <label for="edad">Edad<span class="required">*</span></label>
+        <input type="number" id="edad" name="edad" placeholder="Ingresa tu edad" required>
+
+        <div class="radio-group">
+            <label>Género<span class="required">*</span></label>
+            <label><input type="radio" name="genero" value="masculino" required> Masculino</label>
+            <label><input type="radio" name="genero" value="femenino" required> Femenino</label>
+            <label><input type="radio" name="genero" value="otro" required> Otro</label>
+        </div>
+
+        <div class="checkbox-group">
+            <label>Música Favorita</label>
+            <label><input type="checkbox" name="intereses" value="deportes"> Pop</label>
+            <label><input type="checkbox" name="intereses" value="música"> Rock</label>
+            <label><input type="checkbox" name="intereses" value="tecnología"> Reggaeton</label>
+            <label><input type="checkbox" name="intereses" value="tecnología"> Otro</label>
+        </div>
+
+        <label for="mensaje">Mensaje o Comentarios</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tus comentarios"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <div class="mapa">
+        <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://maps.google.com/maps?width=300&amp;height=300&amp;q=Murcia&amp;output=embed"><a
+                href="https://www.gps.ie/sport-gps/"></a></iframe>
+    </div>
+    <footer id="footer">
+        <h5>© 2024. Linkin Drive<br>
+            c/ Andres Pastor, 58. Murcia.</h5>
+    </footer>
+</body>
+
+</html>
